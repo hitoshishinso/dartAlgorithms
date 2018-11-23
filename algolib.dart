@@ -19,7 +19,3 @@ sieve(int MAX){
   return answer;
 }
 
-main(){
-  List<int> primes = sieve(111);
-  for(int i=0; i<primes.length; i++){print(primes[i]);}
-}
